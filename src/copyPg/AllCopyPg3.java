@@ -123,7 +123,6 @@ public class AllCopyPg3 {
 		while((originFileLine = brOrginFile.readLine())!=null){
 			//일치하는 패턴에서는 바꿀 문자로 변환. 한 줄에 $${}가 여러 개 있을 수 있으므로 반복해서 읽어주어야 한다.
 				while(originFileLine.indexOf("$$") > 0){ //포함하면 반복
-			
 				if(originFileLine.contains("$${")){ 
 				String key = originFileLine.substring(originFileLine.indexOf("{")+1, originFileLine.indexOf("}"));
 				String _key = "$${"+key+"}";
