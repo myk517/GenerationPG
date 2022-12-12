@@ -130,7 +130,6 @@ public class AllCopyPg3 {
 				originFileLine = originFileLine.replace(_key, map.get(key));
 					} 
 				}
-			
 			bw.write(originFileLine);
 			bw.newLine();
 		}
