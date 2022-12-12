@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.Properties;
 public class AllCopyPg3 {
 	public static void main(String[] args) throws IOException {
+		//Main
 		//BufferedWriter -> try catch문으로 잡을 것.
 
 		//전체반복
